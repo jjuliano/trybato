@@ -1,12 +1,12 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    bato (0.0.9)
+    bato (0.0.10)
       ruby2ruby
     daemons (1.2.6)
     eventmachine (1.2.5)
     mustermann (1.0.1)
-    rack (2.0.3)
+    rack (2.0.4)
     rack-protection (2.0.0)
       rack
     ruby2ruby (2.4.0)
@@ -32,10 +32,20 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bato
-  shotgun
-  sinatra
-  thin
+  bato (= 0.0.10)
+  bundler (= 1.16.1)
+  daemons (= 1.2.6)
+  eventmachine (= 1.2.5)
+  mustermann (= 1.0.1)
+  rack (= 2.0.4)
+  rack-protection (= 2.0.0)
+  ruby2ruby (= 2.4.0)
+  ruby_parser (= 3.10.1)
+  sexp_processor (= 4.10.0)
+  shotgun (= 0.9.2)
+  sinatra (= 2.0.0)
+  thin (= 1.7.2)
+  tilt (= 2.0.8)
 
 BUNDLED WITH
    1.16.1
