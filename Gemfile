@@ -1,15 +1,15 @@
-source 'http://rubygems.org'
-gem 'sexp_processor', '4.10.0'
-gem 'ruby_parser', '3.10.1'
-gem 'ruby2ruby', '2.4.0'
-gem 'bato', '0.0.10'
-gem 'bundler', '1.16.1'
-gem 'daemons', '1.2.6'
-gem 'eventmachine', '1.2.5'
-gem 'mustermann', '1.0.1'
-gem 'rack', '2.0.4'
-gem 'shotgun', '0.9.2'
-gem 'tilt', '2.0.8'
-gem 'sinatra', '2.0.0'
-gem 'thin', '1.7.2'
-gem 'rack-protection', '2.0.0'
+source "http://rubygems.org"
+gem "sexp_processor", "~> 4.15"
+gem "ruby_parser", "~> 3.17"
+gem "ruby2ruby", "~> 2.4"
+gem "bato", "~> 0.0.13"
+gem "bundler"
+gem "daemons", "~> 1.4"
+gem "eventmachine", "~> 1.2"
+gem "mustermann", "~> 1.1"
+gem "rack", "~> 2.2"
+gem "shotgun", "~> 0.9"
+gem "tilt", "~> 2.0"
+gem "sinatra", "~> 2.1"
+gem "thin", "~> 1.8"
+gem "rack-protection", "~> 2.1"
