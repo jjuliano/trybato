@@ -1,4 +1,5 @@
 source "http://rubygems.org"
+ruby "3.0.1"
 gem "sexp_processor", "~> 4.15"
 gem "ruby_parser", "~> 3.17"
 gem "ruby2ruby", "~> 2.4"
